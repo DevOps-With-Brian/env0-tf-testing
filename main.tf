@@ -18,7 +18,7 @@ provider "azurerm" {
 # Create a resource group
 resource "azurerm_resource_group" "example" {
   name     = "${var.env_tag}-${var.service_name}-rg"
-  location = "East US"
+  location = var.az_location
   tags = {
    "service" = var.service_name,
    "environment" = var.env_tag

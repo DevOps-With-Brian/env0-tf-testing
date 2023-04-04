@@ -9,3 +9,9 @@ variable "service_name" {
   default = "testing"
   description = "What is the name of the service?"
 }
+
+variable "az_location" {
+  type = string
+  default = "azeastus2"
+  description = "What location should it be deployed?"
+}
