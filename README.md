@@ -1,1 +1,2 @@
 # env0-tf-testing
+This branch shows the doppler testing and using Doppler for all the secrets/variable management.  This way you can keep states seperate and not have to resort to using workspaces and can still have a easy way to centrally manage the secrets and vars that TF uses.
